@@ -3,7 +3,7 @@ while True:
     user_action = input("Enter your choice (r, p, s): ")
     possible_actions = ["r", "p", "s"]
     if user_action not in possible_actions:
-    print("That is an invalid selection. Please try again")
+        print("That is an invalid selection. Please try again")
     computer_action = random.choice(possible_actions)
     # print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
     # evaluate action equality first, to reduce number of cases and simplify rest of elif blocks
